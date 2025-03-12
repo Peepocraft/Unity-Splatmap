@@ -14,7 +14,7 @@ public class UnitySplatmapAssignerEditor : Editor
         DrawDefaultInspector();
         UnitySplatmapAssigner t = (UnitySplatmapAssigner)target;
 
-        if (GUILayout.Button("Apply Terrain Splat"))
+        if (GUILayout.Button("Apply Terrain Splatmaps"))
         {
             t.AssignSplat();
         }
